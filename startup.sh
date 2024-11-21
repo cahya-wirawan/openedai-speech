@@ -1,5 +1,7 @@
 #!/bin/bash
 
+. /app/.venv/bin/activate
+
 [ -f speech.env ] && . speech.env
 
 echo "First startup may download 2GB of speech models. Please wait."
